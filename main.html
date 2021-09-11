@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Speech Text Reader</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <h1>Speech Text Reader</h1>
+    <button class="btn toggleText" id="toggleText" >Toggle Text Box</button>
+    <div class="chooseVoice" id="chooseVoice">
+      <button class="close" id="close">x</button>
+      <select name="voice" class="voice" id="voice"></select>
+      <input type="text" class="txtBox" id="txtBox" placeholder="input text here">
+      <button class="btn read" id="read">Read Text</button>
+    </div>
+    <div class="container" id="container"></div>
+  
+  <script src="scripts.js"></script>
+</body>
+</html>
